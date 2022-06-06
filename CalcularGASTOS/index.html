@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,36 +15,31 @@
 
 
 </head>
-
 <body>
-  <div class="formulario">
 
+  <header class="text">
 
     <h2>Calcular Gastos</h2>
 
+  </header>
 
-
+  <div class="formulario">
 
     <input type="text" id="amigos" placeholder="Ingresar Nombre" required="">
+
     <input type="number" id="montos" placeholder="Ingrese Monto" required="">
+
     <input class="btn btn-primary" id="agregarMonto" type="submit" value="Agregar" onclick="agregarALista()"></input>
+
     <input class="btn btn-primary" id="calcular" type="submit" value="Calcular" onclick="mostrarTot()"></input>
 
-
-
     <ul id="listaDeGastos">
-
-
-
     </ul>
 
     <p id="total"></p>
-
-
 
   </div>
 
   <script src="calcGasto.js"></script>
 </body>
-
 </html>
